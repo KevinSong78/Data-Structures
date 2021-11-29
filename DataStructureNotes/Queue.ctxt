@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Queue
+comment0.text=\r\n\ Interface\ for\ a\ queue\:\ a\ collection\ of\ elements\ that\ are\ inserted\r\n\ and\ removed\ according\ to\ the\ first-in\ first-out\ principle.\ Although\r\n\ similar\ in\ purpose,\ this\ interface\ differs\ from\ java.util.Queue.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ queue.\r\n\ @return\ number\ of\ elements\ in\ the\ queue\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ Tests\ whether\ the\ queue\ is\ empty.\r\n\ @return\ true\ if\ the\ queue\ is\ empty,\ false\ otherwise\r\n
+comment3.params=e
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\r\n\ Inserts\ an\ element\ at\ the\ rear\ of\ the\ queue.\r\n\ @param\ e\ \ the\ element\ to\ be\ inserted\r\n
+comment4.params=
+comment4.target=java.lang.Object\ first()
+comment4.text=\r\n\ Returns,\ but\ does\ not\ remove,\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ the\ first\ element\ of\ the\ queue\ (or\ null\ if\ empty)\r\n
+comment5.params=
+comment5.target=java.lang.Object\ dequeue()
+comment5.text=\r\n\ Removes\ and\ returns\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ element\ removed\ (or\ null\ if\ empty)\r\n
+numComments=6

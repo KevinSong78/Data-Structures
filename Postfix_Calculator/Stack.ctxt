@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=\r\n\ A\ collection\ of\ objects\ that\ are\ inserted\ and\ removed\ according\ to\ the\ last-in\r\n\ first-out\ principle.\ Although\ similar\ in\ purpose,\ this\ interface\ differs\ from\r\n\ java.util.Stack.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ stack.\r\n\ @return\ number\ of\ elements\ in\ the\ stack\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ Tests\ whether\ the\ stack\ is\ empty.\r\n\ @return\ true\ if\ the\ stack\ is\ empty,\ false\ otherwise\r\n
+comment3.params=e
+comment3.target=void\ push(java.lang.Object)
+comment3.text=\r\n\ Inserts\ an\ element\ at\ the\ top\ of\ the\ stack.\r\n\ @param\ e\ \ \ the\ element\ to\ be\ inserted\r\n
+comment4.params=
+comment4.target=java.lang.Object\ top()
+comment4.text=\r\n\ Returns,\ but\ does\ not\ remove,\ the\ element\ at\ the\ top\ of\ the\ stack.\r\n\ @return\ top\ element\ in\ the\ stack\ (or\ null\ if\ empty)\r\n
+comment5.params=
+comment5.target=java.lang.Object\ pop()
+comment5.text=\r\n\ Removes\ and\ returns\ the\ top\ element\ from\ the\ stack.\r\n\ @return\ element\ removed\ (or\ null\ if\ empty)\r\n
+numComments=6

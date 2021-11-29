@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=HuffmanNode
+comment0.text=\r\n\ HuffmanNodes\ are\ the\ specific\ nodes\ used\ for\ the\ HuffmanTree.\ We\ also\ pass\ \r\n\ in\ an\ array\ of\ HuffmanNodes\ to\ BinaryHeap\ for\ this\ assignment\r\n\r\n\ @author\ Kevin\ Song\r\n\ @version\ 11/06/2021\r\n
+comment1.params=
+comment1.target=HuffmanNode()
+comment2.params=letter\ frequency
+comment2.target=HuffmanNode(java.lang.String,\ java.lang.Double)
+comment3.params=left\ right
+comment3.target=HuffmanNode(HuffmanNode,\ HuffmanNode)
+comment4.params=o
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\r\n\ Compares\ the\ frequency\ of\ one\ HuffmanNode\ to\ another\r\n\ @param\ o\ object\ to\ compare\ to\r\n\ @return\ 1\ if\ o\ is\ larger,\ 0\ if\ this\ is\ larger\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Exchangeable
+comment1.params=other\ amount
+comment1.target=void\ exchange(Currency,\ double)
+numComments=2

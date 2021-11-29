@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LinkedStack
+comment0.text=\r\n\ Realization\ of\ a\ stack\ as\ an\ adaptation\ of\ a\ SinglyLinkedList.\r\n\ All\ operations\ are\ performed\ in\ constant\ time.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n\ @see\ SinglyLinkedList\r\n
+comment1.params=
+comment1.target=LinkedStack()
+comment1.text=Constructs\ an\ initially\ empty\ stack.
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ stack.\r\n\ @return\ number\ of\ elements\ in\ the\ stack\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\r\n\ Tests\ whether\ the\ stack\ is\ empty.\r\n\ @return\ true\ if\ the\ stack\ is\ empty,\ false\ otherwise\r\n
+comment4.params=element
+comment4.target=void\ push(java.lang.Object)
+comment4.text=\r\n\ Inserts\ an\ element\ at\ the\ top\ of\ the\ stack.\r\n\ @param\ element\ \ \ the\ element\ to\ be\ inserted\r\n
+comment5.params=
+comment5.target=java.lang.Object\ top()
+comment5.text=\r\n\ Returns,\ but\ does\ not\ remove,\ the\ element\ at\ the\ top\ of\ the\ stack.\r\n\ @return\ top\ element\ in\ the\ stack\ (or\ null\ if\ empty)\r\n
+comment6.params=
+comment6.target=java.lang.Object\ pop()
+comment6.text=\r\n\ Removes\ and\ returns\ the\ top\ element\ from\ the\ stack.\r\n\ @return\ element\ removed\ (or\ null\ if\ empty)\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ Produces\ a\ string\ representation\ of\ the\ contents\ of\ the\ stack.\r\n\ \ (ordered\ from\ top\ to\ bottom)\r\n\r\n\ This\ exists\ for\ debugging\ purposes\ only.\r\n\r\n\ @return\ textual\ representation\ of\ the\ stack\r\n
+numComments=8

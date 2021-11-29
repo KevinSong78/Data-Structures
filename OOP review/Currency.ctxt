@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Currency
+comment0.text=\r\n\ Currency\ will\ exchange\ money\ between\ Mars,\ Neptune,\ and\ Saturn\ using\ conversions\ to\ Earth\ dollars.\r\n\r\n\ @Kevin\ Song\r\n\ @9/29/21\r\n
+comment1.params=amount
+comment1.target=double\ toEarthDollars(double)
+comment2.params=EarthDollars
+comment2.target=double\ fromEarthDollars(double)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Saturn
+comment1.params=n
+comment1.target=Saturn(double)
+comment2.params=amount
+comment2.target=double\ toEarthDollars(double)
+comment3.params=earthDollars
+comment3.target=double\ fromEarthDollars(double)
+comment4.params=other\ amount
+comment4.target=void\ exchange(Currency,\ double)
+numComments=5

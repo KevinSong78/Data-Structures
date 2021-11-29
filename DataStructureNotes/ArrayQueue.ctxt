@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ArrayQueue
+comment1.params=
+comment1.target=ArrayQueue()
+comment1.text=Constructs\ an\ empty\ queue\ using\ the\ default\ array\ capacity.
+comment2.params=capacity
+comment2.target=ArrayQueue(int)
+comment2.text=\r\n\ Constructs\ and\ empty\ queue\ with\ the\ given\ array\ capacity.\r\n\ @param\ capacity\ length\ of\ the\ underlying\ array\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ queue.\r\n\ @return\ number\ of\ elements\ in\ the\ queue\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=Tests\ whether\ the\ queue\ is\ empty.
+comment5.params=e
+comment5.target=void\ enqueue(java.lang.Object)
+comment5.text=\r\n\ Inserts\ an\ element\ at\ the\ rear\ of\ the\ queue.\r\n\ This\ method\ runs\ in\ O(1)\ time.\r\n\ @param\ e\ \ \ new\ element\ to\ be\ inserted\r\n\ @throws\ IllegalStateException\ if\ the\ array\ storing\ the\ elements\ is\ full\r\n
+comment6.params=
+comment6.target=java.lang.Object\ first()
+comment6.text=\r\n\ Returns,\ but\ does\ not\ remove,\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ the\ first\ element\ of\ the\ queue\ (or\ null\ if\ empty)\r\n
+comment7.params=
+comment7.target=java.lang.Object\ dequeue()
+comment7.text=\r\n\ Removes\ and\ returns\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ element\ removed\ (or\ null\ if\ empty)\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ queue\ as\ a\ list\ of\ elements.\r\n\ This\ method\ runs\ in\ O(n)\ time,\ where\ n\ is\ the\ size\ of\ the\ queue.\r\n\ @return\ textual\ representation\ of\ the\ queue.\r\n
+numComments=9

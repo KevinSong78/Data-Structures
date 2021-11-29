@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ArrayStack
+comment0.text=\r\n\ A\ specific\ type\ of\ Stack\ that\ utilizes\ an\ array\ to\ reference\ generic\ objects\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n\ @author\ Kevin\ Song\r\n
+comment1.params=
+comment1.target=ArrayStack()
+comment1.text=Constructs\ an\ empty\ stack\ using\ the\ default\ array\ capacity.
+comment2.params=capacity
+comment2.target=ArrayStack(int)
+comment2.text=\r\n\ Constructs\ and\ empty\ stack\ with\ the\ given\ array\ capacity.\r\n\ @param\ capacity\ length\ of\ the\ underlying\ array\r\n
+comment3.params=
+comment3.target=int\ size()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=e
+comment5.target=void\ push(java.lang.Object)
+comment6.params=
+comment6.target=java.lang.Object\ top()
+comment7.params=
+comment7.target=java.lang.Object\ pop()
+numComments=8

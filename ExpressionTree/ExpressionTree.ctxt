@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ExpressionTree
+comment0.text=\r\n\ ExpressionTree\ takes\ a\ postfix\ expression\ and\ converts\ it\ into\ an\ Expression\ Tree.\ Traversal\ methods\ can\ be\ called\ onto\ the\ tree.\r\n\r\n\ @author\ Kevin\ Song\r\n\ @version\ 10/23/21\r\n
+comment1.params=postfix
+comment1.target=ExpressionTree(java.lang.String)
+comment2.params=
+comment2.target=void\ convert()
+comment2.text=\r\n\ Converts\ a\ postfix\ expression\ into\ a\ corresponding\ Expression\ Tree.\r\n
+comment3.params=
+comment3.target=void\ prefix()
+comment4.params=t
+comment4.target=void\ prefix(ExpressionTree.Node)
+comment4.text=\r\n\ Prints\ the\ expression\ tree\ using\ prefix\ traversal\r\n\ @param\ Node\ \ \ the\ expression\ tree\r\n
+comment5.params=
+comment5.target=void\ infix()
+comment6.params=t
+comment6.target=void\ infix(ExpressionTree.Node)
+comment6.text=\r\n\ Prints\ the\ expression\ tree\ using\ infix\ traversal\r\n\ @param\ Node\ \ \ the\ expression\ tree\r\n
+comment7.params=
+comment7.target=void\ postfix()
+comment8.params=t
+comment8.target=void\ postfix(ExpressionTree.Node)
+comment8.text=\r\n\ Prints\ the\ expression\ tree\ using\ postfix\ traversal\r\n\ @param\ Node\ \ \ the\ expression\ tree\r\n
+numComments=9

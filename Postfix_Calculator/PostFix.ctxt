@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PostFix
+comment0.text=\r\n\ This\ is\ a\ calculator\ that\ performs\ an\ infix\ to\ postfix\ conversion\r\n\ and\ then\ evaluates\ the\ resulting\ postfix\ expression.\r\n\ \r\n\ @author\ Kevin\ Song\r\n\ @version\ 10/12/2021\r\n
+comment1.params=input
+comment1.target=PostFix(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=input
+comment3.target=double\ calculator(java.lang.String)
+comment3.text=\r\n\ This\ method\ will\ push\ all\ the\ numbers\ in\ the\ postfix\ expression\ onto\ a\ stack,\ where\ then\ 2\ will\ be\ popped\r\n\ off\ at\ a\ time\ whenever\ an\ operator\ is\ found.\ The\ result\ will\ be\ pushed\ back\ onto\ the\ stack\ and\ repeat\ for\ every\ operator.\ The\ final\ number\r\n\ in\ the\ stack\ is\ the\ evaluation.\r\n\ @param\ input\ \ \ \ \ The\ postfix\ expression\ to\ evaluate\r\n
+numComments=4

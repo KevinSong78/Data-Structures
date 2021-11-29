@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=LinkedQueue
+comment1.params=
+comment1.target=LinkedQueue()
+comment1.text=Constructs\ an\ initially\ empty\ queue.
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ Returns\ the\ number\ of\ elements\ in\ the\ queue.\r\n\ @return\ number\ of\ elements\ in\ the\ queue\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\r\n\ Tests\ whether\ the\ queue\ is\ empty.\r\n\ @return\ true\ if\ the\ queue\ is\ empty,\ false\ otherwise\r\n
+comment4.params=element
+comment4.target=void\ enqueue(java.lang.Object)
+comment4.text=\r\n\ Inserts\ an\ element\ at\ the\ rear\ of\ the\ queue.\r\n\ @param\ element\ \ the\ element\ to\ be\ inserted\r\n
+comment5.params=
+comment5.target=java.lang.Object\ first()
+comment5.text=\r\n\ Returns,\ but\ does\ not\ remove,\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ the\ first\ element\ of\ the\ queue\ (or\ null\ if\ empty)\r\n
+comment6.params=
+comment6.target=java.lang.Object\ dequeue()
+comment6.text=\r\n\ Removes\ and\ returns\ the\ first\ element\ of\ the\ queue.\r\n\ @return\ element\ removed\ (or\ null\ if\ empty)\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ Produces\ a\ string\ representation\ of\ the\ contents\ of\ the\ queue.\r\n\ \ (from\ front\ to\ back).\ This\ exists\ for\ debugging\ purposes\ only.\r\n
+numComments=8

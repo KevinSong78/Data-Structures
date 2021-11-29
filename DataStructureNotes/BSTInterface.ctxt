@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BSTInterface
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment2.params=
+comment2.target=int\ size()
+comment3.params=element
+comment3.target=boolean\ contains(java.lang.Comparable)
+comment4.params=element
+comment4.target=boolean\ remove(java.lang.Comparable)
+comment5.params=element
+comment5.target=java.lang.Comparable\ get(java.lang.Comparable)
+comment6.params=element
+comment6.target=void\ add(java.lang.Comparable)
+comment7.params=orderType
+comment7.target=int\ reset(int)
+comment8.params=orderType
+comment8.target=java.lang.Comparable\ getNext(int)
+numComments=9
