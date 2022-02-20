@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HuffmanTree
+comment0.text=\r\n\ Constructs\ a\ HuffmanTree\ where\ all\ leaves\ are\ single\ letters\ and\ number\ of\ \r\n\ edges\ and\ their\ direction\ (left/right)\ determine\ the\ binary\ encoding.\r\n\r\n\ @author\ Kevin\ Song\r\n\ @version\ 11/06/2021\r\n
+comment1.params=
+comment1.target=HuffmanTree()
+comment2.params=huff
+comment2.target=HuffmanTree(HuffmanNode)
+comment3.params=
+comment3.target=void\ printLegend()
+comment4.params=t\ encoding
+comment4.target=void\ printLegend(HuffmanNode,\ java.lang.String)
+comment4.text=\r\n\ Prints\ the\ binary\ encodings\r\n\ @param\ t\ each\ HuffmanNode\ in\ the\ tree\r\n\ @param\ encoding\ the\ binary\ encoding\ corresponding\ to\ the\ number\ of\ edges\ traversed\r\n
+comment5.params=legend
+comment5.target=BinaryHeap\ legendToHeap(java.lang.String)
+comment5.text=\r\n\ Converts\ user\ input\ into\ a\ BinaryHeap\ of\ type\ HuffmanNodes\r\n\ @param\ legend\ user\ input\r\n\ @return\ Corresponding\ BinaryHeap\ \r\n
+comment6.params=b
+comment6.target=HuffmanTree\ createFromHeap(BinaryHeap)
+comment6.text=\r\n\ Creates\ the\ HuffmanTree\ from\ the\ BinaryHeap\r\n\ @param\ b\ BinaryHeap\r\n\ @return\ Corresponding\ HuffmanTree\r\n
+numComments=7

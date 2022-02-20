@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BSTNode
+comment1.params=info
+comment1.target=BSTNode(java.lang.Comparable)
+comment2.params=info
+comment2.target=void\ setInfo(java.lang.Comparable)
+comment3.params=
+comment3.target=java.lang.Comparable\ getInfo()
+comment4.params=link
+comment4.target=void\ setLeft(BSTNode)
+comment5.params=link
+comment5.target=void\ setRight(BSTNode)
+comment6.params=
+comment6.target=BSTNode\ getLeft()
+comment7.params=
+comment7.target=BSTNode\ getRight()
+numComments=8

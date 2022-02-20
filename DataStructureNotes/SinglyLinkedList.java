@@ -75,6 +75,27 @@ public class SinglyLinkedList<E> implements Cloneable {
   public SinglyLinkedList() 
   { 
   }              // constructs an initially empty list
+  public int countDuplicates()
+  {
+     int duplicates = 0;
+     Node walk = head; 
+
+     while(walk.getNext() != null)
+     {
+         Node walk2 = head;
+         while(walk2.getNext() != null)
+         {
+            if(walk.element == walk2.getNext())
+             {
+                 duplicates ++;
+                 break;
+             }
+             walk2 = walk2.getNext();
+         }
+         walk = walk.getNext();
+     }
+      return duplicates;
+  }
 public int countEvens()
           {
               int evens = 0;
